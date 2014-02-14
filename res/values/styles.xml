@@ -1,0 +1,114 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- ストア共通 -->
+    <style name="app_default">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+	</style>
+	
+    <style name="app_default_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+	</style>
+    
+	<style name="app_label_h1_ob" parent="app_default">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+	</style>
+
+	<style name="app_label_h1_bb" parent="app_default">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+	</style>
+	
+	<style name="app_label_h2_b" parent="app_default">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+	</style>
+	
+	<style name="app_label_h2" parent="app_default">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13sp</item>
+	</style>
+    
+
+	<style name="app_label_h3" parent="app_default">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+	</style>
+
+	<style name="app_label_h3_g" parent="app_default">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">13sp</item>
+	</style>
+	
+	<style name="app_label_error_h3" parent="app_default">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">13sp</item>
+	</style>
+
+	<style name="app_line_o">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@color/orange</item>
+	</style>
+
+	<style name="app_line_lg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@color/lightgray</item>
+	</style>
+	
+	<style name="app_radio_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+	</style>
+	
+	<style name="app_arrow_image" parent="app_default">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+	</style>
+	
+    <!-- ストア設定 -->
+	<style name="app_setup_edittext" parent="app_default_match">
+        <item name="android:inputType">text</item>
+	</style>
+
+	<style name="app_setup_edittext_position" parent="app_default_match">
+        <item name="android:inputType">number</item>
+        <item name="android:layout_width">100dip</item>
+	</style>
+
+	<style name="app_setup_spinner" parent="app_default">
+	</style>
+
+	<!-- ストア設定 -->
+	<style name="app_design_signboard_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_centerInParent">true</item>
+	</style>
+    
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8f4ed"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/app_label_h1_ob"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="@string/app_name" />
+
+        <Button
+            android:id="@+id/btn_scan_barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_button_small"
+            android:text="@string/add" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/app_label_h2"
+            android:text="@string/bar_code" />
+
+        <TextView
+            android:id="@+id/tv_scan_result"
+            style="@style/app_label_h2" />
+    </LinearLayout>
+
+    <View style="@style/app_line_o" />
+
+    <GridView
+        android:id="@+id/bookGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="60dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:numColumns="4"
+        android:padding="10dp"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="10dp" />
+
+</LinearLayout>

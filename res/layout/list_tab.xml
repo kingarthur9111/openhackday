@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/beige"
+        android:clickable="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/list_tab_textview_my"
+            style="@style/app_label_h1_ob"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="My" />
+
+        <TextView
+            android:id="@+id/list_tab_textview_friend"
+            style="@style/app_label_h1_ob"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Friend" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_tab_cursor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:scaleType="matrix"
+        android:src="@drawable/cursor" />
+
+    <View style="@style/app_line_o" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/list_tab_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+    <View style="@style/app_line_o" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/list_tab_friend_add"
+        style="@style/app_default"
+        android:text="lalalalala" />
+
+    <ListView
+        android:id="@+id/list_tab_friend_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>
