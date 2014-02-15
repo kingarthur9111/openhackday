@@ -1,0 +1,924 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+<OperationRequest>
+<HTTPHeaders>
+<Header Name="UserAgent" Value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36"/>
+</HTTPHeaders>
+<RequestId>a26655be-1f28-4add-8ba8-87713d1b21b1</RequestId>
+<Arguments>
+<Argument Name="Service" Value="AWSECommerceService"/>
+<Argument Name="ReviewPage" Value="1"/>
+<Argument Name="Timestamp" Value="2014-02-15T04:13:11.000Z"/>
+<Argument Name="Operation" Value="ItemLookup"/>
+<Argument Name="AssociateTag" Value="kingarthur911-22"/>
+<Argument Name="SearchIndex" Value="Books"/>
+<Argument Name="Signature" Value="YvpUKmnnkoCUMg/N0vUk+mFybjWLhl0an5jK5zHq4lM="/>
+<Argument Name="ItemId" Value="9784844362845"/>
+<Argument Name="IdType" Value="ISBN"/>
+<Argument Name="AWSAccessKeyId" Value="AKIAICMG2OHEJZLCRWPQ"/>
+<Argument Name="ResponseGroup" Value="Large"/>
+</Arguments>
+<RequestProcessingTime>0.0763813280000000</RequestProcessingTime>
+</OperationRequest>
+<Items>
+<Request>
+<IsValid>True</IsValid>
+<ItemLookupRequest>
+<IdType>ISBN</IdType>
+<ItemId>9784844362845</ItemId>
+<ResponseGroup>Large</ResponseGroup>
+<SearchIndex>Books</SearchIndex>
+<VariationPage>All</VariationPage>
+</ItemLookupRequest>
+</Request>
+<Item>
+<ASIN>4844362844</ASIN>
+<DetailPageURL>
+http://www.amazon.co.jp/%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E4%BA%BA%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%84%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%89%87-%E7%9F%B3%E6%9C%AC%E5%85%89%E5%8F%B8/dp/4844362844%3FSubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4844362844
+</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>
+http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4844362844%26SubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4844362844
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>
+http://www.amazon.co.jp/gp/pdp/taf/4844362844%3FSubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4844362844
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>
+http://www.amazon.co.jp/review/product/4844362844%3FSubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4844362844
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>
+http://www.amazon.co.jp/gp/offer-listing/4844362844%3FSubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4844362844
+</URL>
+</ItemLink>
+</ItemLinks>
+<SalesRank>354921</SalesRank>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/518Q2woIvyL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">56</Width>
+</SmallImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/518Q2woIvyL._SL160_.jpg
+</URL>
+<Height Units="pixels">160</Height>
+<Width Units="pixels">118</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/518Q2woIvyL.jpg
+</URL>
+<Height Units="pixels">500</Height>
+<Width Units="pixels">370</Width>
+</LargeImage>
+<ImageSets>
+<ImageSet Category="primary">
+<SwatchImage>
+<URL>
+http://ecx.images-amazon.com/images/I/518Q2woIvyL._SL30_.jpg
+</URL>
+<Height Units="pixels">30</Height>
+<Width Units="pixels">22</Width>
+</SwatchImage>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/518Q2woIvyL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">56</Width>
+</SmallImage>
+<ThumbnailImage>
+<URL>
+http://ecx.images-amazon.com/images/I/518Q2woIvyL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">56</Width>
+</ThumbnailImage>
+<TinyImage>
+<URL>
+http://ecx.images-amazon.com/images/I/518Q2woIvyL._SL110_.jpg
+</URL>
+<Height Units="pixels">110</Height>
+<Width Units="pixels">81</Width>
+</TinyImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/518Q2woIvyL._SL160_.jpg
+</URL>
+<Height Units="pixels">160</Height>
+<Width Units="pixels">118</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/518Q2woIvyL.jpg
+</URL>
+<Height Units="pixels">500</Height>
+<Width Units="pixels">370</Width>
+</LargeImage>
+</ImageSet>
+<ImageSet Category="variant">
+<SwatchImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51d6FyMaAIL._SL30_.jpg
+</URL>
+<Height Units="pixels">20</Height>
+<Width Units="pixels">30</Width>
+</SwatchImage>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51d6FyMaAIL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</SmallImage>
+<ThumbnailImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51d6FyMaAIL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</ThumbnailImage>
+<TinyImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51d6FyMaAIL._SL110_.jpg
+</URL>
+<Height Units="pixels">74</Height>
+<Width Units="pixels">110</Width>
+</TinyImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51d6FyMaAIL._SL160_.jpg
+</URL>
+<Height Units="pixels">108</Height>
+<Width Units="pixels">160</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51d6FyMaAIL.jpg
+</URL>
+<Height Units="pixels">338</Height>
+<Width Units="pixels">500</Width>
+</LargeImage>
+</ImageSet>
+<ImageSet Category="variant">
+<SwatchImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51qIhPfNdSL._SL30_.jpg
+</URL>
+<Height Units="pixels">20</Height>
+<Width Units="pixels">30</Width>
+</SwatchImage>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51qIhPfNdSL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</SmallImage>
+<ThumbnailImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51qIhPfNdSL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</ThumbnailImage>
+<TinyImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51qIhPfNdSL._SL110_.jpg
+</URL>
+<Height Units="pixels">74</Height>
+<Width Units="pixels">110</Width>
+</TinyImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51qIhPfNdSL._SL160_.jpg
+</URL>
+<Height Units="pixels">108</Height>
+<Width Units="pixels">160</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51qIhPfNdSL.jpg
+</URL>
+<Height Units="pixels">338</Height>
+<Width Units="pixels">500</Width>
+</LargeImage>
+</ImageSet>
+<ImageSet Category="variant">
+<SwatchImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL30_.jpg
+</URL>
+<Height Units="pixels">20</Height>
+<Width Units="pixels">30</Width>
+</SwatchImage>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</SmallImage>
+<ThumbnailImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</ThumbnailImage>
+<TinyImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL110_.jpg
+</URL>
+<Height Units="pixels">74</Height>
+<Width Units="pixels">110</Width>
+</TinyImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL160_.jpg
+</URL>
+<Height Units="pixels">108</Height>
+<Width Units="pixels">160</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL.jpg
+</URL>
+<Height Units="pixels">338</Height>
+<Width Units="pixels">500</Width>
+</LargeImage>
+</ImageSet>
+<ImageSet Category="variant">
+<SwatchImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL30_.jpg
+</URL>
+<Height Units="pixels">20</Height>
+<Width Units="pixels">30</Width>
+</SwatchImage>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</SmallImage>
+<ThumbnailImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</ThumbnailImage>
+<TinyImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL110_.jpg
+</URL>
+<Height Units="pixels">74</Height>
+<Width Units="pixels">110</Width>
+</TinyImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL._SL160_.jpg
+</URL>
+<Height Units="pixels">108</Height>
+<Width Units="pixels">160</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51Cb8IdrkbL.jpg
+</URL>
+<Height Units="pixels">338</Height>
+<Width Units="pixels">500</Width>
+</LargeImage>
+</ImageSet>
+<ImageSet Category="variant">
+<SwatchImage>
+<URL>
+http://ecx.images-amazon.com/images/I/512P3AMaWxL._SL30_.jpg
+</URL>
+<Height Units="pixels">20</Height>
+<Width Units="pixels">30</Width>
+</SwatchImage>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/512P3AMaWxL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</SmallImage>
+<ThumbnailImage>
+<URL>
+http://ecx.images-amazon.com/images/I/512P3AMaWxL._SL75_.jpg
+</URL>
+<Height Units="pixels">51</Height>
+<Width Units="pixels">75</Width>
+</ThumbnailImage>
+<TinyImage>
+<URL>
+http://ecx.images-amazon.com/images/I/512P3AMaWxL._SL110_.jpg
+</URL>
+<Height Units="pixels">74</Height>
+<Width Units="pixels">110</Width>
+</TinyImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/512P3AMaWxL._SL160_.jpg
+</URL>
+<Height Units="pixels">108</Height>
+<Width Units="pixels">160</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/512P3AMaWxL.jpg
+</URL>
+<Height Units="pixels">338</Height>
+<Width Units="pixels">500</Width>
+</LargeImage>
+</ImageSet>
+</ImageSets>
+<ItemAttributes>
+<Author>石本光司</Author>
+<Author>いちがみトモロヲ</Author>
+<Author>外間かおり</Author>
+<Author>矢野りん</Author>
+<Author>加藤善規</Author>
+<Author>小林信次</Author>
+<Author>斉藤祐也</Author>
+<Author>境 祐司</Author>
+<Author>谷 拓樹</Author>
+<Author>豊沢泰尚</Author>
+<Author>古籏一浩</Author>
+<Binding>単行本</Binding>
+<EAN>9784844362845</EAN>
+<EANList>
+<EANListElement>9784844362845</EANListElement>
+</EANList>
+<IsAdultProduct>0</IsAdultProduct>
+<ISBN>4844362844</ISBN>
+<Label>エムディエヌコーポレーション</Label>
+<Languages>
+<Language>
+<Name>日本語</Name>
+<Type>Published</Type>
+</Language>
+</Languages>
+<ListPrice>
+<Amount>2625</Amount>
+<CurrencyCode>JPY</CurrencyCode>
+<FormattedPrice>￥ 2,625</FormattedPrice>
+</ListPrice>
+<Manufacturer>エムディエヌコーポレーション</Manufacturer>
+<NumberOfPages>224</NumberOfPages>
+<PackageDimensions>
+<Height Units="hundredths-inches">87</Height>
+<Length Units="hundredths-inches">1016</Length>
+<Weight Units="hundredths-pounds">146</Weight>
+<Width Units="hundredths-inches">756</Width>
+</PackageDimensions>
+<ProductGroup>Book</ProductGroup>
+<ProductTypeName>ABIS_BOOK</ProductTypeName>
+<PublicationDate>2012-08-27</PublicationDate>
+<Publisher>エムディエヌコーポレーション</Publisher>
+<Studio>エムディエヌコーポレーション</Studio>
+<Title>すべての人に知っておいてほしい スマートフォンサイトデザインの基本原則</Title>
+</ItemAttributes>
+<OfferSummary>
+<LowestNewPrice>
+<Amount>2625</Amount>
+<CurrencyCode>JPY</CurrencyCode>
+<FormattedPrice>￥ 2,625</FormattedPrice>
+</LowestNewPrice>
+<LowestUsedPrice>
+<Amount>1615</Amount>
+<CurrencyCode>JPY</CurrencyCode>
+<FormattedPrice>￥ 1,615</FormattedPrice>
+</LowestUsedPrice>
+<TotalNew>1</TotalNew>
+<TotalUsed>8</TotalUsed>
+<TotalCollectible>0</TotalCollectible>
+<TotalRefurbished>0</TotalRefurbished>
+</OfferSummary>
+<Offers>
+<TotalOffers>1</TotalOffers>
+<TotalOfferPages>1</TotalOfferPages>
+<MoreOffersUrl>
+http://www.amazon.co.jp/gp/offer-listing/4844362844%3FSubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4844362844
+</MoreOffersUrl>
+<Offer>
+<OfferAttributes>
+<Condition>New</Condition>
+</OfferAttributes>
+<OfferListing>
+<OfferListingId>
+JE5KORBepllMqXHjiUm3jdBYFCSi8j7KH2liM70kZ51S1J4iOADi%2Bd3sO7hl7dOBJJG%2BXPORcbj%2F6oc0hlWRQRjeYy0zI226N7jQrmgdMxg%3D
+</OfferListingId>
+<Price>
+<Amount>2625</Amount>
+<CurrencyCode>JPY</CurrencyCode>
+<FormattedPrice>￥ 2,625</FormattedPrice>
+</Price>
+<Availability>在庫あり。</Availability>
+<AvailabilityAttributes>
+<AvailabilityType>now</AvailabilityType>
+<MinimumHours>0</MinimumHours>
+<MaximumHours>0</MaximumHours>
+</AvailabilityAttributes>
+<IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+</OfferListing>
+</Offer>
+</Offers>
+<CustomerReviews>
+<IFrameURL>
+http://www.amazon.jp/reviews/iframe?akid=AKIAICMG2OHEJZLCRWPQ&alinkCode=xm2&asin=4844362844&atag=kingarthur911-22&exp=2014-02-16T04%3A13%3A43Z&v=2&sig=cdthabCZNYdn1XKuJa3OkMIUSQymfSywjips1uQ94Z4%3D
+</IFrameURL>
+<HasReviews>false</HasReviews>
+</CustomerReviews>
+<SimilarProducts>
+<SimilarProduct>
+<ASIN>4844362984</ASIN>
+<Title>すべての人に知っておいてほしい jQuery & jQuery Mobileの基本原則</Title>
+</SimilarProduct>
+<SimilarProduct>
+<ASIN>4844362917</ASIN>
+<Title>すべての人に知っておいてほしい HTML5 & CSS3 の基本原則</Title>
+</SimilarProduct>
+<SimilarProduct>
+<ASIN>483994332X</ASIN>
+<Title>スマートフォンサイトのためのHTML5+CSS3 (Web Designing BOOKS)</Title>
+</SimilarProduct>
+<SimilarProduct>
+<ASIN>4844362739</ASIN>
+<Title>スマートフォンサイトデザインブック 仕事で絶対に使うプロのテクニック</Title>
+</SimilarProduct>
+<SimilarProduct>
+<ASIN>4844362674</ASIN>
+<Title>すべての人に知っておいてほしい スタイルシートデザインの基本原則</Title>
+</SimilarProduct>
+</SimilarProducts>
+<BrowseNodes>
+<BrowseNode>
+<BrowseNodeId>515814</BrowseNodeId>
+<Name>HTML</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>515206</BrowseNodeId>
+<Name>Web開発</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>492332</BrowseNodeId>
+<Name>インターネット・Web開発</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>466298</BrowseNodeId>
+<Name>コンピュータ・IT</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>465610</BrowseNodeId>
+<Name>ジャンル別</Name>
+<IsCategoryRoot>1</IsCategoryRoot>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>465392</BrowseNodeId>
+<Name>本</Name>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>492334</BrowseNodeId>
+<Name>デザイン・グラフィックス</Name>
+<Children>
+<BrowseNode>
+<BrowseNodeId>542608</BrowseNodeId>
+<Name>Webデザイン</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>502744</BrowseNodeId>
+<Name>グラフィックス</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>502746</BrowseNodeId>
+<Name>DTPソフト</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>502748</BrowseNodeId>
+<Name>3D グラフィックス</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>500610</BrowseNodeId>
+<Name>コンピュータアート</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>714472</BrowseNodeId>
+<Name>Adobe</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>714480</BrowseNodeId>
+<Name>Macromedia</Name>
+</BrowseNode>
+</Children>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>466298</BrowseNodeId>
+<Name>コンピュータ・IT</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>465610</BrowseNodeId>
+<Name>ジャンル別</Name>
+<IsCategoryRoot>1</IsCategoryRoot>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>465392</BrowseNodeId>
+<Name>本</Name>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>12877911</BrowseNodeId>
+<Name>エムディエヌコーポレーション</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>465614</BrowseNodeId>
+<Name>By Publishers</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>465392</BrowseNodeId>
+<Name>本</Name>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>15749671</BrowseNodeId>
+<Name>なか見！検索</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>515742</BrowseNodeId>
+<Name>Stores</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>465392</BrowseNodeId>
+<Name>本</Name>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</BrowseNodes>
+</Item>
+<Item>
+<ASIN>B00CGXVGUM</ASIN>
+<DetailPageURL>
+http://www.amazon.co.jp/%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E4%BA%BA%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%84%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%89%87-%E7%9F%B3%E6%9C%AC-%E5%85%89%E5%8F%B8-ebook/dp/B00CGXVGUM%3FSubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00CGXVGUM
+</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>
+http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00CGXVGUM%26SubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB00CGXVGUM
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>
+http://www.amazon.co.jp/gp/pdp/taf/B00CGXVGUM%3FSubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB00CGXVGUM
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>
+http://www.amazon.co.jp/review/product/B00CGXVGUM%3FSubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB00CGXVGUM
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>
+http://www.amazon.co.jp/gp/offer-listing/B00CGXVGUM%3FSubscriptionId%3DAKIAICMG2OHEJZLCRWPQ%26tag%3Dkingarthur911-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB00CGXVGUM
+</URL>
+</ItemLink>
+</ItemLinks>
+<SalesRank>18083</SalesRank>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51xpSpzIKWL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">56</Width>
+</SmallImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51xpSpzIKWL._SL160_.jpg
+</URL>
+<Height Units="pixels">160</Height>
+<Width Units="pixels">118</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51xpSpzIKWL.jpg
+</URL>
+<Height Units="pixels">500</Height>
+<Width Units="pixels">370</Width>
+</LargeImage>
+<ImageSets>
+<ImageSet Category="primary">
+<SwatchImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51xpSpzIKWL._SL30_.jpg
+</URL>
+<Height Units="pixels">30</Height>
+<Width Units="pixels">22</Width>
+</SwatchImage>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51xpSpzIKWL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">56</Width>
+</SmallImage>
+<ThumbnailImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51xpSpzIKWL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">56</Width>
+</ThumbnailImage>
+<TinyImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51xpSpzIKWL._SL110_.jpg
+</URL>
+<Height Units="pixels">110</Height>
+<Width Units="pixels">81</Width>
+</TinyImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51xpSpzIKWL._SL160_.jpg
+</URL>
+<Height Units="pixels">160</Height>
+<Width Units="pixels">118</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/51xpSpzIKWL.jpg
+</URL>
+<Height Units="pixels">500</Height>
+<Width Units="pixels">370</Width>
+</LargeImage>
+</ImageSet>
+</ImageSets>
+<ItemAttributes>
+<Author>石本 光司</Author>
+<Author>いちがみトモロヲ</Author>
+<Author>加藤 善規</Author>
+<Author>小林 信次</Author>
+<Author>斉藤 祐也</Author>
+<Author>境 祐司</Author>
+<Author>谷 拓樹</Author>
+<Author>豊沢 泰尚</Author>
+<Author>古籏 一浩</Author>
+<Author>外間 かおり</Author>
+<Author>矢野 りん</Author>
+<Binding>Kindle版</Binding>
+<Format>Kindle本</Format>
+<IsAdultProduct>0</IsAdultProduct>
+<Label>エムディエヌコーポレーション（MdN）</Label>
+<Languages>
+<Language>
+<Name>日本語</Name>
+<Type>Published</Type>
+</Language>
+</Languages>
+<Manufacturer>エムディエヌコーポレーション（MdN）</Manufacturer>
+<ProductGroup>eBooks</ProductGroup>
+<ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+<PublicationDate>2012-08-27</PublicationDate>
+<Publisher>エムディエヌコーポレーション（MdN）</Publisher>
+<ReleaseDate>2013-04-23</ReleaseDate>
+<Studio>エムディエヌコーポレーション（MdN）</Studio>
+<Title>すべての人に知っておいてほしいスマートフォンサイトデザインの基本原則</Title>
+</ItemAttributes>
+<CustomerReviews>
+<IFrameURL>
+http://www.amazon.jp/reviews/iframe?akid=AKIAICMG2OHEJZLCRWPQ&alinkCode=xm2&asin=B00CGXVGUM&atag=kingarthur911-22&exp=2014-02-16T04%3A13%3A43Z&v=2&sig=9LJXBxxRBc0W1pxfJ%2BXDWv5jGy7TM68%2BmVaSy%2BhZxnQ%3D
+</IFrameURL>
+<HasReviews>false</HasReviews>
+</CustomerReviews>
+<EditorialReviews>
+<EditorialReview>
+<Source>内容紹介</Source>
+<Content>
+<b>〈電子書籍版に関する注意事項〉</b><br />本書は固定レイアウト型／カラーの電子書籍です。リフロー型と異なりビューア機能が制限されるほか、端末によって見え方が異なりますので、ご購入前にお使いの端末にて「無料サンプル」をお試しください。<br /><br /><b>【Web制作に携わる人が、いま、一番知っておきたいこと。】</b><br />スマートフォン大流行の現在、Web制作業界では、まず初めにスマートフォンに対応するサイトから構築していこうという考え方が広がっています。対応サイトの導入が注目・促進されるなかで、スマートフォンサイト制作のための情報やノウハウはまだまだ不足しています。また、一般的な解説と実際の現場で起きていることに温度差が生まれているといった側面もあるのではないでしょうか。本書は、第一線で活躍するクリエイターらを執筆陣を迎えた、現場の生のノウハウを詰め込んだ実用性の高いスマートフォンサイトデザインの解説書です。
+</Content>
+<IsLinkSuppressed>0</IsLinkSuppressed>
+</EditorialReview>
+</EditorialReviews>
+<SimilarProducts>
+<SimilarProduct>
+<ASIN>B00GZBH3WG</ASIN>
+<Title>フラットデザインの基本ルール Webクリエイティブ&アプリの新しい考え方。</Title>
+</SimilarProduct>
+<SimilarProduct>
+<ASIN>B00CYY7832</ASIN>
+<Title>デザイナーのためのiPhoneアプリUI/UX設計 (アスキー書籍)</Title>
+</SimilarProduct>
+<SimilarProduct>
+<ASIN>B00APBE4AG</ASIN>
+<Title>スマートフォンサイトデザインブック　仕事で絶対に使うプロのテクニック</Title>
+</SimilarProduct>
+<SimilarProduct>
+<ASIN>B00CGXVGUC</ASIN>
+<Title>すべての人に知っておいてほしいWEBデザインの基本原則</Title>
+</SimilarProduct>
+<SimilarProduct>
+<ASIN>B00BI8Y99Q</ASIN>
+<Title>Illustratorデザインメソッド</Title>
+</SimilarProduct>
+</SimilarProducts>
+<BrowseNodes>
+<BrowseNode>
+<BrowseNodeId>465610</BrowseNodeId>
+<Name>ジャンル別</Name>
+<IsCategoryRoot>1</IsCategoryRoot>
+<Children>
+<BrowseNode>
+<BrowseNodeId>466284</BrowseNodeId>
+<Name>文学・評論</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>571582</BrowseNodeId>
+<Name>人文・思想</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>571584</BrowseNodeId>
+<Name>社会・政治</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>492152</BrowseNodeId>
+<Name>ノンフィクション</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466286</BrowseNodeId>
+<Name>歴史・地理</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466282</BrowseNodeId>
+<Name>ビジネス・経済</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>492054</BrowseNodeId>
+<Name>投資・金融・会社経営</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466290</BrowseNodeId>
+<Name>科学・テクノロジー</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>492166</BrowseNodeId>
+<Name>医学・薬学・看護学・歯科学</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466298</BrowseNodeId>
+<Name>コンピュータ・IT</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466294</BrowseNodeId>
+<Name>アート・建築・デザイン</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466292</BrowseNodeId>
+<Name>趣味・実用</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>2400471051</BrowseNodeId>
+<Name>スポーツ・アウトドア</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>492228</BrowseNodeId>
+<Name>資格・検定・就職</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466304</BrowseNodeId>
+<Name>暮らし・健康・子育て</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>492090</BrowseNodeId>
+<Name>旅行ガイド・マップ</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466302</BrowseNodeId>
+<Name>語学・辞事典・年鑑</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>3148931</BrowseNodeId>
+<Name>教育・学参・受験</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466306</BrowseNodeId>
+<Name>絵本・児童書</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466280</BrowseNodeId>
+<Name>コミック・ラノベ・BL</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>500592</BrowseNodeId>
+<Name>タレント写真集</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>492266</BrowseNodeId>
+<Name>ゲーム攻略・ゲームブック</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>466296</BrowseNodeId>
+<Name>エンターテイメント</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>13384021</BrowseNodeId>
+<Name>雑誌</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>746102</BrowseNodeId>
+<Name>楽譜・スコア・音楽書</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>255460011</BrowseNodeId>
+<Name>古書</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>886928</BrowseNodeId>
+<Name>カレンダー</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>13383771</BrowseNodeId>
+<Name>ポスター</Name>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>10667101</BrowseNodeId>
+<Name>アダルト</Name>
+</BrowseNode>
+</Children>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>465392</BrowseNodeId>
+<Name>本</Name>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+<BrowseNode>
+<BrowseNodeId>2293291051</BrowseNodeId>
+<Name>工学</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>2293263051</BrowseNodeId>
+<Name>科学・テクノロジー</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>2275256051</BrowseNodeId>
+<Name>Kindle本</Name>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>2250739051</BrowseNodeId>
+<Name>カテゴリー別</Name>
+<IsCategoryRoot>1</IsCategoryRoot>
+<Ancestors>
+<BrowseNode>
+<BrowseNodeId>2250738051</BrowseNodeId>
+<Name>Kindleストア</Name>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</Ancestors>
+</BrowseNode>
+</BrowseNodes>
+</Item>
+</Items>
+</ItemLookupResponse>
